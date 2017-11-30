@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Feisman- The Brand of applied art digital accessories which belongs to ShenZhen Feisman Technology Co., Ltd. Feisman is an excellent brand owner of accessories for personal mobile devices around the world. We insist in practical design for 10 years, and we occupy a leading position in protective iphone cases, cables, car brackets, earphones, laptop sleeve etc.">
+    <meta name="Keywords" content="Case,iphone Case,wall charer,iphone charger,Leather Case,type c cable,Tempered Glass,Bluetooth Earphone,Bluetooth Speaker,cable adapter,cable adaptor,Portable Power Banks,Power Adapters,Cell Phone Case,amazon best seller,alibaba,laptop sleeve,laptop case,laptop bag,Headset,Earphone,Car Bluetooth Earphone,Power Bank,USB Cable,Car Holder,VR,Car Recorder,Sports Bracelet,Kids Smart Watch,Sports DV,Micro SD Card,Car Charger,Cigarette Lighter,Lamp,Charger,Electric Bicycle,Self-balancing Scooter,Power Strip,USB Power Strip,USB Fan,Fan,Cup,Glass Bottle,Umbrella,Bag,Home,Outdoor,Car Accessories,Smart,Creative Lifestyle">
+    <title>Feisman - Official Website|iPhone Accessories,Cases,Cable,Audio,Holder,laptop sleeve</title>
+    <script>
+    (function() {
+      function isLocalStorageNameSupported() {
+        var testKey = 'test';
+        var storage = window.localStorage;
+        try {
+          storage.setItem(testKey, '1');
+          storage.removeItem(testKey);
+          return true;
+        } catch (error) {
+          return false;
+        }
+      }
+      // 优先级提高到所有静态资源的前面，语言不对，加载其他静态资源没意义
+      var pathname = location.pathname;
+
+      function isZhCN(pathname) {
+        return /-cn\/?$/.test(pathname);
+      }
+      function getLocalizedPathname(path, zhCN) {
+        var pathname = path.startsWith('/') ? path : '/' + path;
+        if (!zhCN) { // to enUS
+          return /\/?index-cn/.test(pathname) ? '/' : pathname.replace('-cn', '');
+        } else if (pathname === '/') {
+          return '/index-cn';
+        } else if (pathname.endsWith('/')) {
+          return pathname.replace(/\/$/, '-cn/');
+        }
+        return pathname + '-cn';
+      }
+
+      // 兼容旧的 URL， `?locale=...`
+      var queryString = location.search;
+      if (queryString) {
+        var isZhCNConfig = queryString.indexOf('zh-CN') > -1;
+        if (isZhCNConfig && !isZhCN(pathname)) {
+          location.pathname = getLocalizedPathname(pathname, isZhCNConfig)
+        }
+      }
+
+      // 首页无视链接里面的语言设置 https://github.com/ant-design/ant-design/issues/4552
+      if (isLocalStorageNameSupported() && (pathname === '/' || pathname === '/index-cn')) {
+        var lang = (window.localStorage && localStorage.getItem('locale')) || (navigator.language.toLowerCase() === 'zh-cn' ? 'zh-CN' : 'en-US');
+        // safari is 'zh-cn', while other browser is 'zh-CN';
+        if ((lang === 'zh-CN') !== isZhCN(pathname)) {
+          location.pathname = getLocalizedPathname(pathname, lang === 'zh-CN');
+        }
+      }
+      document.documentElement.className += isZhCN(pathname) ? 'zh-cn' : 'en-us';
+    })()
+    </script>
+    <link rel="icon" href="http://g02.s.alicdn.com/kf/HTB1RM2jbZnI8KJjSspe763wIpXau/230514981/HTB1RM2jbZnI8KJjSspe763wIpXau.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.cnpmjs.org/css?family=Lato:400,700|Raleway"/>
+    <link rel="stylesheet" type="text/css" href="/index-1.css"/>
+    <link rel="stylesheet" type="text/css" href="/index-2.css"/>
+    <link rel="stylesheet/less" type="text/css" href="/color.less"/>
+    <style id="nprogress-style">
+      #nprogress { display: none }
+    </style>
+    <!--[if lte IE 10]>
+      <script
+        src="https://as.alipayobjects.com/g/component/??console-polyfill/0.2.2/index.js,media-match/2.0.2/media.match.min.js"></script>
+    <![endif]-->
+    <script>
+    if (!window.Intl) {
+      document.writeln('<script src="https://as.alipayobjects.com/g/component/intl/1.0.1/??Intl.js,locale-data/jsonp/en.js,locale-data/jsonp/zh.js">' + '<' + '/script>');
+    }
+    if (!window.Promise) {
+      document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"' + '>' + '<' + '/' + 'script>');
+    }
+
+    }
+    </script>
+
+    <!-- Start of KF5 supportbox script -->
+    <script type="text/javascript">
+      document.write('<script src="\/\/assets-cdn.kf5.com\/supportbox\/main.js?' + (new Date).getDay() + '" id="kf5-provide-supportBox" kf5-domain="pengbo.kf5.com" charset="utf-8"><\/script>');
+    </script>
+    <!-- End of KF5 supportbox script -->
+  </head>
+  <body>
+    <div id="react-content">
+      <div class="page-wrapper" data-reactroot="" data-reactid="1" data-react-checksum="-529823486"><header id="header" class="clearfix" data-reactid="2"><div class="ant-row" data-reactid="3"><div class="ant-col-xs-24 ant-col-sm-24 ant-col-md-5 ant-col-lg-4" data-reactid="4"><a id="logo" href="/" data-reactid="5"><img alt="logo" src="http://g02.s.alicdn.com/kf/HTB1S_xAXQfb_uJkSnhJ762dDVXaU/230514981/HTB1S_xAXQfb_uJkSnhJ762dDVXaU.png" data-reactid="6"/></a></div><div class="ant-col-xs-0 ant-col-sm-0 ant-col-md-19 ant-col-lg-20" data-reactid="7"><div id="search-box" data-reactid="8"></div><button type="button" class="ant-btn header-lang-button ant-btn-sm ant-btn-background-ghost" data-reactid="9"><span data-reactid="10">中文</span></button><ul class="ant-menu ant-menu-horizontal ant-menu-light ant-menu-root" role="menu" aria-activedescendant="" id="nav" tabindex="0" data-reactid="11"><li class="ant-menu-item" role="menuitem" aria-selected="false" data-reactid="12"><a href="/" data-reactid="13"><span data-reactid="14">Home</span></a></li><li class="ant-menu-item" role="menuitem" aria-selected="false" data-reactid="15"><a href="/docs/product/best-seller" data-reactid="16"><span data-reactid="17">Products</span></a></li><li class="ant-menu-item-selected ant-menu-item" role="menuitem" aria-selected="true" data-reactid="18"><a href="/docs/about/company-profile" data-reactid="19"><span data-reactid="20">About Feisman</span></a></li><li class="ant-menu-item" role="menuitem" aria-selected="false" data-reactid="21"><a href="/docs/contact/contact-us" data-reactid="22"><span data-reactid="23">Contact Us</span></a></li><li class="ant-menu-item" role="menuitem" aria-selected="false" data-reactid="24"><a href="http://www.ichaoyue.cn" class="header-link" target="_blank" rel="noopener noreferrer" data-reactid="25"><span data-reactid="26">Online Catalogue</span><span style="display:inline-block;position:relative;top:-2px;width:18px;" data-reactid="27"><span class="ant-badge ant-badge-not-a-wrapper" data-reactid="28"><sup data-show="true" class="ant-scroll-number ant-badge-dot" data-reactid="29"></sup></span></span></a></li></ul></div></div></header><div class="main-wrapper" data-reactid="30"><div class="ant-row" data-reactid="31"><div class="ant-col-xs-24 ant-col-sm-24 ant-col-md-6 ant-col-lg-4" data-reactid="32"><ul class="ant-menu ant-menu-inline aside-container ant-menu-light ant-menu-root" role="menu" aria-activedescendant="" tabindex="0" data-reactid="33"><li style="padding-left:24px;" class="ant-menu-item" role="menuitem" aria-selected="false" data-reactid="34"><a href="/docs/about/company-profile" data-reactid="35">Company Profile</a></li><li style="padding-left:24px;" class="ant-menu-item" role="menuitem" aria-selected="false" data-reactid="36"><a href="/docs/about/factory-profile" data-reactid="37">Factory Profile</a></li><li style="padding-left:24px;" class="ant-menu-item-selected ant-menu-item" role="menuitem" aria-selected="true" data-reactid="38"><a href="/docs/about/special-service" data-reactid="39">Special Service</a></li><li style="padding-left:24px;" class="ant-menu-item" role="menuitem" aria-selected="false" data-reactid="40"><a href="/docs/about/be-our-partners" data-reactid="41">Be Our Partners</a></li></ul></div><div class="main-container ant-col-xs-24 ant-col-sm-24 ant-col-md-18 ant-col-lg-20" data-reactid="42"><article class="markdown" data-reactid="43"><h1 data-reactid="44"><!-- react-text: 45 -->Special Service<!-- /react-text --><a class="edit-button" href="https://github.com/ant-design/ant-design/edit/master/docs/about/special-service.en-US.md" target="_blank" data-reactid="46"><i class="anticon anticon-edit" data-reactid="47"></i></a></h1><section class="markdown" data-reactid="48"><h4 id="I、OEM/ODM" data-reactid="49"><span data-reactid="50"><!-- react-text: 51 -->I、OEM/ODM<!-- /react-text --></span><a href="#I、OEM/ODM" class="anchor" data-reactid="52">#</a></h4><p data-reactid="53"><!-- react-text: 54 -->Offer ODM service to create new module for private customer,and offer OEM service for customer&#x27;s special requirements<!-- /react-text --></p><h4 id="II、Wholesale" data-reactid="55"><span data-reactid="56"><!-- react-text: 57 -->II、Wholesale<!-- /react-text --></span><a href="#II、Wholesale" class="anchor" data-reactid="58">#</a></h4><p data-reactid="59"><!-- react-text: 60 -->When you would not deal with us for OEM or ODM, also welcome to work with us for our brand. And you should have clear idea in running the brand and a good ability to expand market.<!-- /react-text --></p><h4 id="III、Sourcing-agent" data-reactid="61"><span data-reactid="62"><!-- react-text: 63 -->III、Sourcing agent<!-- /react-text --></span><a href="#III、Sourcing-agent" class="anchor" data-reactid="64">#</a></h4><p data-reactid="65"><!-- react-text: 66 -->When you need any other China electronic products which it is relate to our industry, welcome to ask us as your agent to find the right manufacturer for you. We have a good intercommunicate between China manufacturers. And we are the legal company to help you to get the competitive price and good supplier.<!-- /react-text --></p></section><section class="markdown api-container" data-reactid="67"></section></article></div></div><div class="ant-row" data-reactid="68"><div class="ant-col-xs-24 ant-col-sm-24 ant-col-md-18 ant-col-md-offset-6 ant-col-lg-20 ant-col-lg-offset-4" data-reactid="69"><section class="prev-next-nav" data-reactid="70"><a class="prev-page" href="/docs/about/factory-profile" data-reactid="71">Factory Profile</a><a class="next-page" href="/docs/about/be-our-partners" data-reactid="72">Be Our Partners</a></section></div></div></div><footer id="footer" data-reactid="73"><ul data-reactid="74"><li data-reactid="75"><h2 data-reactid="76"><i class="anticon anticon-github" data-reactid="77"></i><!-- react-text: 78 --> Feisman Digital<!-- /react-text --></h2><div data-reactid="79"><a target="_blank " href="/docs/about/company-profile" data-reactid="80"><span data-reactid="81">About Feisman</span></a></div><div data-reactid="82"><a target="_blank " href="docs/contact/contact-us" data-reactid="83"><span data-reactid="84">Contact Us</span></a></div><div data-reactid="85"><a target="_blank " href="http://www.ichaoyue.cn" data-reactid="86"><span data-reactid="87">Online Catalogue</span></a></div><div data-reactid="88"><a target="_blank " href="http://feisman.en.alibaba.com" data-reactid="89"><span data-reactid="90">Alibaba Store</span></a></div><div data-reactid="91"><a target="_blank " href="https://www.facebook.com/szfeisman" data-reactid="92"><span data-reactid="93">Facebook Page</span></a></div><div style="margin-top:12px;" data-reactid="94"><div data-reactid="95"><div style="padding:5px;background:#fff;border-radius:1px;box-shadow:0 0 0 1px rgba(0,0,0,.1);display:inline-block;cursor:pointer;" data-reactid="96"><div style="width:60px;height:12px;border-radius:2px;background:#108ee9;" data-reactid="97"></div></div></div></div></li><li data-reactid="98"><h2 data-reactid="99"><i class="anticon anticon-link" data-reactid="100"></i><!-- react-text: 101 --> <!-- /react-text --><span data-reactid="102">3C Digital Accessories</span></h2><div data-reactid="103"><a href="http://#" data-reactid="104"><span data-reactid="105">Usb Cables</span></a></div><div data-reactid="106"><a href="http://#" data-reactid="107"><span data-reactid="108">Cable Adapters</span></a></div><div data-reactid="109"><a href="http://#" data-reactid="110"><span data-reactid="111">Cell Phone Cases</span></a></div><div data-reactid="112"><a href="http://#" data-reactid="113"><span data-reactid="114">Chargers &amp; Power Adapters</span></a></div><div data-reactid="115"><a href="http://#" data-reactid="116"><span data-reactid="117">Headphones&amp;Headsets</span></a></div><div data-reactid="118"><a href="http://#" data-reactid="119"><span data-reactid="120">Portable Power Banks</span></a></div><div data-reactid="121"><a href="http://#" data-reactid="122"><span data-reactid="123">Others</span></a></div></li><li data-reactid="124"><h2 data-reactid="125"><i class="anticon anticon-customer-service" data-reactid="126"></i><!-- react-text: 127 --> <!-- /react-text --><span data-reactid="128">Creative Lifestyle</span></h2><div data-reactid="129"><a href="/changelog" data-reactid="130"><span data-reactid="131">Home</span></a></div><div data-reactid="132"><a target="_blank" rel="noopener noreferrer" href="https://#" data-reactid="133"><span data-reactid="134">Outdoor</span></a></div><div data-reactid="135"><a target="_blank" rel="noopener noreferrer" href="https://gitter.im/ant-design/ant-design" data-reactid="136"><span data-reactid="137">Laptop Sleeve</span></a></div><div data-reactid="138"><a target="_blank" rel="noopener noreferrer" href="https://gitter.im/ant-design/ant-design-english" data-reactid="139"><span data-reactid="140">Others</span></a></div></li><li data-reactid="141"><h2 data-reactid="142"><!-- react-text: 143 -->Copyright © <!-- /react-text --><!-- react-text: 144 -->2017<!-- /react-text --></h2><div data-reactid="145"><span data-reactid="146">Shenzhen Feisman Technology Co. Ltd. @ B2B</span></div><div data-reactid="147"><!-- react-text: 148 -->Built with <!-- /react-text --><a target="_blank" rel="noopener noreferrer" href="http://www.feisman.cn" data-reactid="149">BiSheng</a></div></li></ul></footer></div>
+    </div>
+    
+      
+        <script src="https://as.alipayobjects.com/g/component/??react/15.6.1/react.min.js,react/15.6.1/react-dom.min.js"></script>
+      
+    
+    <script src="/common.js"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>

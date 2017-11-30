@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Feisman- The Brand of applied art digital accessories which belongs to ShenZhen Feisman Technology Co., Ltd. Feisman is an excellent brand owner of accessories for personal mobile devices around the world. We insist in practical design for 10 years, and we occupy a leading position in protective iphone cases, cables, car brackets, earphones, laptop sleeve etc.">
+    <meta name="Keywords" content="Case,iphone Case,wall charer,iphone charger,Leather Case,type c cable,Tempered Glass,Bluetooth Earphone,Bluetooth Speaker,cable adapter,cable adaptor,Portable Power Banks,Power Adapters,Cell Phone Case,amazon best seller,alibaba,laptop sleeve,laptop case,laptop bag,Headset,Earphone,Car Bluetooth Earphone,Power Bank,USB Cable,Car Holder,VR,Car Recorder,Sports Bracelet,Kids Smart Watch,Sports DV,Micro SD Card,Car Charger,Cigarette Lighter,Lamp,Charger,Electric Bicycle,Self-balancing Scooter,Power Strip,USB Power Strip,USB Fan,Fan,Cup,Glass Bottle,Umbrella,Bag,Home,Outdoor,Car Accessories,Smart,Creative Lifestyle">
+    <title>Feisman - Official Website|iPhone Accessories,Cases,Cable,Audio,Holder,laptop sleeve</title>
+    <script>
+    (function() {
+      function isLocalStorageNameSupported() {
+        var testKey = 'test';
+        var storage = window.localStorage;
+        try {
+          storage.setItem(testKey, '1');
+          storage.removeItem(testKey);
+          return true;
+        } catch (error) {
+          return false;
+        }
+      }
+      // 优先级提高到所有静态资源的前面，语言不对，加载其他静态资源没意义
+      var pathname = location.pathname;
+
+      function isZhCN(pathname) {
+        return /-cn\/?$/.test(pathname);
+      }
+      function getLocalizedPathname(path, zhCN) {
+        var pathname = path.startsWith('/') ? path : '/' + path;
+        if (!zhCN) { // to enUS
+          return /\/?index-cn/.test(pathname) ? '/' : pathname.replace('-cn', '');
+        } else if (pathname === '/') {
+          return '/index-cn';
+        } else if (pathname.endsWith('/')) {
+          return pathname.replace(/\/$/, '-cn/');
+        }
+        return pathname + '-cn';
+      }
+
+      // 兼容旧的 URL， `?locale=...`
+      var queryString = location.search;
+      if (queryString) {
+        var isZhCNConfig = queryString.indexOf('zh-CN') > -1;
+        if (isZhCNConfig && !isZhCN(pathname)) {
+          location.pathname = getLocalizedPathname(pathname, isZhCNConfig)
+        }
+      }
+
+      // 首页无视链接里面的语言设置 https://github.com/ant-design/ant-design/issues/4552
+      if (isLocalStorageNameSupported() && (pathname === '/' || pathname === '/index-cn')) {
+        var lang = (window.localStorage && localStorage.getItem('locale')) || (navigator.language.toLowerCase() === 'zh-cn' ? 'zh-CN' : 'en-US');
+        // safari is 'zh-cn', while other browser is 'zh-CN';
+        if ((lang === 'zh-CN') !== isZhCN(pathname)) {
+          location.pathname = getLocalizedPathname(pathname, lang === 'zh-CN');
+        }
+      }
+      document.documentElement.className += isZhCN(pathname) ? 'zh-cn' : 'en-us';
+    })()
+    </script>
+    <link rel="icon" href="http://g02.s.alicdn.com/kf/HTB1RM2jbZnI8KJjSspe763wIpXau/230514981/HTB1RM2jbZnI8KJjSspe763wIpXau.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.cnpmjs.org/css?family=Lato:400,700|Raleway"/>
+    <link rel="stylesheet" type="text/css" href="/index-1.css"/>
+    <link rel="stylesheet" type="text/css" href="/index-2.css"/>
+    <link rel="stylesheet/less" type="text/css" href="/color.less"/>
+    <style id="nprogress-style">
+      #nprogress { display: none }
+    </style>
+    <!--[if lte IE 10]>
+      <script
+        src="https://as.alipayobjects.com/g/component/??console-polyfill/0.2.2/index.js,media-match/2.0.2/media.match.min.js"></script>
+    <![endif]-->
+    <script>
+    if (!window.Intl) {
+      document.writeln('<script src="https://as.alipayobjects.com/g/component/intl/1.0.1/??Intl.js,locale-data/jsonp/en.js,locale-data/jsonp/zh.js">' + '<' + '/script>');
+    }
+    if (!window.Promise) {
+      document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"' + '>' + '<' + '/' + 'script>');
+    }
+
+    }
+    </script>
+
+    <!-- Start of KF5 supportbox script -->
+    <script type="text/javascript">
+      document.write('<script src="\/\/assets-cdn.kf5.com\/supportbox\/main.js?' + (new Date).getDay() + '" id="kf5-provide-supportBox" kf5-domain="pengbo.kf5.com" charset="utf-8"><\/script>');
+    </script>
+    <!-- End of KF5 supportbox script -->
+  </head>
+  <body>
+    <div id="react-content">
+      <div class="page-wrapper" data-reactroot="" data-reactid="1" data-react-checksum="799071518"><header id="header" class="clearfix" data-reactid="2"><div class="ant-row" data-reactid="3"><div class="ant-col-xs-24 ant-col-sm-24 ant-col-md-5 ant-col-lg-4" data-reactid="4"><a id="logo" href="/" data-reactid="5"><img alt="logo" src="http://g02.s.alicdn.com/kf/HTB1S_xAXQfb_uJkSnhJ762dDVXaU/230514981/HTB1S_xAXQfb_uJkSnhJ762dDVXaU.png" data-reactid="6"/></a></div><div class="ant-col-xs-0 ant-col-sm-0 ant-col-md-19 ant-col-lg-20" data-reactid="7"><div id="search-box" data-reactid="8"></div><button type="button" class="ant-btn header-lang-button ant-btn-sm ant-btn-background-ghost" data-reactid="9"><span data-reactid="10">中文</span></button><ul class="ant-menu ant-menu-horizontal ant-menu-light ant-menu-root" role="menu" aria-activedescendant="" id="nav" tabindex="0" data-reactid="11"><li class="ant-menu-item" role="menuitem" aria-selected="false" data-reactid="12"><a href="/" data-reactid="13"><span data-reactid="14">Home</span></a></li><li class="ant-menu-item" role="menuitem" aria-selected="false" data-reactid="15"><a href="/docs/product/best-seller" data-reactid="16"><span data-reactid="17">Products</span></a></li><li class="ant-menu-item-selected ant-menu-item" role="menuitem" aria-selected="true" data-reactid="18"><a href="/docs/about/company-profile" data-reactid="19"><span data-reactid="20">About Feisman</span></a></li><li class="ant-menu-item" role="menuitem" aria-selected="false" data-reactid="21"><a href="/docs/contact/contact-us" data-reactid="22"><span data-reactid="23">Contact Us</span></a></li><li class="ant-menu-item" role="menuitem" aria-selected="false" data-reactid="24"><a href="http://www.ichaoyue.cn" class="header-link" target="_blank" rel="noopener noreferrer" data-reactid="25"><span data-reactid="26">Online Catalogue</span><span style="display:inline-block;position:relative;top:-2px;width:18px;" data-reactid="27"><span class="ant-badge ant-badge-not-a-wrapper" data-reactid="28"><sup data-show="true" class="ant-scroll-number ant-badge-dot" data-reactid="29"></sup></span></span></a></li></ul></div></div></header><div class="main-wrapper" data-reactid="30"><div class="ant-row" data-reactid="31"><div class="ant-col-xs-24 ant-col-sm-24 ant-col-md-6 ant-col-lg-4" data-reactid="32"><ul class="ant-menu ant-menu-inline aside-container ant-menu-light ant-menu-root" role="menu" aria-activedescendant="" tabindex="0" data-reactid="33"><li style="padding-left:24px;" class="ant-menu-item-selected ant-menu-item" role="menuitem" aria-selected="true" data-reactid="34"><a href="/docs/about/company-profile" data-reactid="35">Company Profile</a></li><li style="padding-left:24px;" class="ant-menu-item" role="menuitem" aria-selected="false" data-reactid="36"><a href="/docs/about/factory-profile" data-reactid="37">Factory Profile</a></li><li style="padding-left:24px;" class="ant-menu-item" role="menuitem" aria-selected="false" data-reactid="38"><a href="/docs/about/special-service" data-reactid="39">Special Service</a></li><li style="padding-left:24px;" class="ant-menu-item" role="menuitem" aria-selected="false" data-reactid="40"><a href="/docs/about/be-our-partners" data-reactid="41">Be Our Partners</a></li></ul></div><div class="main-container ant-col-xs-24 ant-col-sm-24 ant-col-md-18 ant-col-lg-20" data-reactid="42"><article class="markdown" data-reactid="43"><h1 data-reactid="44"><!-- react-text: 45 -->Company Profile<!-- /react-text --><a class="edit-button" href="https://github.com/ant-design/ant-design/edit/master/docs/about/company-profile.en-US.md" target="_blank" data-reactid="46"><i class="anticon anticon-edit" data-reactid="47"></i></a></h1><section class="markdown" data-reactid="48"><p data-reactid="49"><img src="https://img.alicdn.com/imgextra/i2/703329090/TB2rXFWexrI8KJjy0FpXXb5hVXa_!!703329090.jpg" data-reactid="50"/></p><p data-reactid="51"><!-- react-text: 52 -->Shenzhen Feisman Technology Co., Ltd. engage in mobile phone accessories more than 8 years. It is the marketing centre of <!-- /react-text --><strong data-reactid="53"><!-- react-text: 54 -->Feisman <!-- /react-text --></strong><!-- react-text: 55 -->Brand. Our headquater is located in Shenzhen, the new &amp; modern city in China. It is a modernized office that has reached 5A decoration standard, which contains a neat &amp; tidy working area, exhibition room, warehouse and supporting logistics.<!-- /react-text --></p><p data-reactid="56"><!-- react-text: 57 -->Feisman produces innovative electronic products and a full line of Peripheral accessories for all Apple products and Samsung phones and tablets.Feisman has gained the recognition from consumers and customers with its rich product lines and quality of products. Globally, Feisman has built up stable connection with large amounts of online merchants, wholesalers and retailers. In China, there are more than 200 Feisman exclusive shops, 5 branches and over 500 official resellers. Meanwhile, Feisman also adopts an international businness philosophy, aiming to expand overseas market. At this stage, Feisman products have already been well sold in more than 100 countries.<!-- /react-text --></p><p data-reactid="58"><!-- react-text: 59 -->Feisman has reached a new page on its journey to globalization. Feisman will always seek for new technology, aiming to produce pratical products with good quality and trendy designs.Look foward to the amusement that Feisman brings you!<!-- /react-text --></p><p data-reactid="60"><img src="https://img.alicdn.com/imgextra/i2/703329090/TB2s6duewvD8KJjSsplXXaIEFXa_!!703329090.jpg" data-reactid="61"/></p><ul data-reactid="62"><li data-reactid="63"><h4 id="Product-Orientation" data-reactid="64"><span data-reactid="65"><!-- react-text: 66 -->Product Orientation<!-- /react-text --></span><a href="#Product-Orientation" class="anchor" data-reactid="67">#</a></h4></li></ul><p data-reactid="68"><!-- react-text: 69 -->Feisman is the sub-brand of Shenzhen Feisman Technology Co., Ltd. The idea of young, passion, fashion and happiness makes the brand popular among the young generation，Feisman products provide you the concept of savoring life and fashion, including different categories such as Protection, Energy, Audio, Car Accessories, Data Cable ,Creative Products etc.<!-- /react-text --></p><ul data-reactid="70"><li data-reactid="71"><h4 id="Brand-Prospect" data-reactid="72"><span data-reactid="73"><!-- react-text: 74 -->Brand Prospect<!-- /react-text --></span><a href="#Brand-Prospect" class="anchor" data-reactid="75">#</a></h4></li></ul><p data-reactid="76"><!-- react-text: 77 -->Feisman&#x27;s goal is to be a premier digital electronics company, constantly striving for the highest standard in terms of quality and exceptional product design. All products pass through strict quality control processes prior to shipment in order to exceed the high expectations of both our customers and partners, With an uncompromising dedication to becoming a leader in digital electronics, we create products with a high level of practicality and excellence. This includes manufacturing products that make a lasting impression and exceed expectations, while further enhancing both brand integrity and confidence.<!-- /react-text --></p><ul data-reactid="78"><li data-reactid="79"><h4 id="OEM&amp;ODM-Services" data-reactid="80"><span data-reactid="81"><!-- react-text: 82 -->OEM&amp;ODM Services<!-- /react-text --></span><a href="#OEM&amp;ODM-Services" class="anchor" data-reactid="83">#</a></h4></li></ul><p data-reactid="84"><!-- react-text: 85 -->Whereas the company possesses of high-level R&amp;D and Manufacturing ability,we sincerely welcome all the foreign and domestic customers cooperate with us to develop OEM&amp;ODM projects,and we will provide the best and professional solution with advanced technology and high quality.<!-- /react-text --></p><p data-reactid="86"><!-- react-text: 87 -->Feisman commits itself  to become the international professional manufacturing base of Mobile phone accessories  products. We sincerely  welcome all the foreign and domestic customers contact us and make business with us.<!-- /react-text --></p><ul data-reactid="88"><li data-reactid="89"><h4 id="Quality-System" data-reactid="90"><span data-reactid="91"><!-- react-text: 92 -->Quality System<!-- /react-text --></span><a href="#Quality-System" class="anchor" data-reactid="93">#</a></h4></li></ul><p data-reactid="94"><!-- react-text: 95 -->Since we began the Feisman&#x27;s business, we have always believed the customers convinced by our QUALITY.Even if we start large-scale production, we always keep our eyes on the quality. Now we have ISO9001:2000 certification and our products have passed the Chinese CQC, CCC certifications, Euro CE and NA UL certifications.<!-- /react-text --></p><p data-reactid="96"><img src="/assets/company3.jpg" data-reactid="97"/></p></section><section class="markdown api-container" data-reactid="98"></section></article></div></div><div class="ant-row" data-reactid="99"><div class="ant-col-xs-24 ant-col-sm-24 ant-col-md-18 ant-col-md-offset-6 ant-col-lg-20 ant-col-lg-offset-4" data-reactid="100"><section class="prev-next-nav" data-reactid="101"><a class="next-page" href="/docs/about/factory-profile" data-reactid="102">Factory Profile</a></section></div></div></div><footer id="footer" data-reactid="103"><ul data-reactid="104"><li data-reactid="105"><h2 data-reactid="106"><i class="anticon anticon-github" data-reactid="107"></i><!-- react-text: 108 --> Feisman Digital<!-- /react-text --></h2><div data-reactid="109"><a target="_blank " href="/docs/about/company-profile" data-reactid="110"><span data-reactid="111">About Feisman</span></a></div><div data-reactid="112"><a target="_blank " href="docs/contact/contact-us" data-reactid="113"><span data-reactid="114">Contact Us</span></a></div><div data-reactid="115"><a target="_blank " href="http://www.ichaoyue.cn" data-reactid="116"><span data-reactid="117">Online Catalogue</span></a></div><div data-reactid="118"><a target="_blank " href="http://feisman.en.alibaba.com" data-reactid="119"><span data-reactid="120">Alibaba Store</span></a></div><div data-reactid="121"><a target="_blank " href="https://www.facebook.com/szfeisman" data-reactid="122"><span data-reactid="123">Facebook Page</span></a></div><div style="margin-top:12px;" data-reactid="124"><div data-reactid="125"><div style="padding:5px;background:#fff;border-radius:1px;box-shadow:0 0 0 1px rgba(0,0,0,.1);display:inline-block;cursor:pointer;" data-reactid="126"><div style="width:60px;height:12px;border-radius:2px;background:#108ee9;" data-reactid="127"></div></div></div></div></li><li data-reactid="128"><h2 data-reactid="129"><i class="anticon anticon-link" data-reactid="130"></i><!-- react-text: 131 --> <!-- /react-text --><span data-reactid="132">3C Digital Accessories</span></h2><div data-reactid="133"><a href="http://#" data-reactid="134"><span data-reactid="135">Usb Cables</span></a></div><div data-reactid="136"><a href="http://#" data-reactid="137"><span data-reactid="138">Cable Adapters</span></a></div><div data-reactid="139"><a href="http://#" data-reactid="140"><span data-reactid="141">Cell Phone Cases</span></a></div><div data-reactid="142"><a href="http://#" data-reactid="143"><span data-reactid="144">Chargers &amp; Power Adapters</span></a></div><div data-reactid="145"><a href="http://#" data-reactid="146"><span data-reactid="147">Headphones&amp;Headsets</span></a></div><div data-reactid="148"><a href="http://#" data-reactid="149"><span data-reactid="150">Portable Power Banks</span></a></div><div data-reactid="151"><a href="http://#" data-reactid="152"><span data-reactid="153">Others</span></a></div></li><li data-reactid="154"><h2 data-reactid="155"><i class="anticon anticon-customer-service" data-reactid="156"></i><!-- react-text: 157 --> <!-- /react-text --><span data-reactid="158">Creative Lifestyle</span></h2><div data-reactid="159"><a href="/changelog" data-reactid="160"><span data-reactid="161">Home</span></a></div><div data-reactid="162"><a target="_blank" rel="noopener noreferrer" href="https://#" data-reactid="163"><span data-reactid="164">Outdoor</span></a></div><div data-reactid="165"><a target="_blank" rel="noopener noreferrer" href="https://gitter.im/ant-design/ant-design" data-reactid="166"><span data-reactid="167">Laptop Sleeve</span></a></div><div data-reactid="168"><a target="_blank" rel="noopener noreferrer" href="https://gitter.im/ant-design/ant-design-english" data-reactid="169"><span data-reactid="170">Others</span></a></div></li><li data-reactid="171"><h2 data-reactid="172"><!-- react-text: 173 -->Copyright © <!-- /react-text --><!-- react-text: 174 -->2017<!-- /react-text --></h2><div data-reactid="175"><span data-reactid="176">Shenzhen Feisman Technology Co. Ltd. @ B2B</span></div><div data-reactid="177"><!-- react-text: 178 -->Built with <!-- /react-text --><a target="_blank" rel="noopener noreferrer" href="http://www.feisman.cn" data-reactid="179">BiSheng</a></div></li></ul></footer></div>
+    </div>
+    
+      
+        <script src="https://as.alipayobjects.com/g/component/??react/15.6.1/react.min.js,react/15.6.1/react-dom.min.js"></script>
+      
+    
+    <script src="/common.js"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>

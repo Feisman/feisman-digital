@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Feisman- The Brand of applied art digital accessories which belongs to ShenZhen Feisman Technology Co., Ltd. Feisman is an excellent brand owner of accessories for personal mobile devices around the world. We insist in practical design for 10 years, and we occupy a leading position in protective iphone cases, cables, car brackets, earphones, laptop sleeve etc.">
+    <meta name="Keywords" content="Case,iphone Case,wall charer,iphone charger,Leather Case,type c cable,Tempered Glass,Bluetooth Earphone,Bluetooth Speaker,cable adapter,cable adaptor,Portable Power Banks,Power Adapters,Cell Phone Case,amazon best seller,alibaba,laptop sleeve,laptop case,laptop bag,Headset,Earphone,Car Bluetooth Earphone,Power Bank,USB Cable,Car Holder,VR,Car Recorder,Sports Bracelet,Kids Smart Watch,Sports DV,Micro SD Card,Car Charger,Cigarette Lighter,Lamp,Charger,Electric Bicycle,Self-balancing Scooter,Power Strip,USB Power Strip,USB Fan,Fan,Cup,Glass Bottle,Umbrella,Bag,Home,Outdoor,Car Accessories,Smart,Creative Lifestyle">
+    <title>Feisman - Official Website|iPhone Accessories,Cases,Cable,Audio,Holder,laptop sleeve</title>
+    <script>
+    (function() {
+      function isLocalStorageNameSupported() {
+        var testKey = 'test';
+        var storage = window.localStorage;
+        try {
+          storage.setItem(testKey, '1');
+          storage.removeItem(testKey);
+          return true;
+        } catch (error) {
+          return false;
+        }
+      }
+      // 优先级提高到所有静态资源的前面，语言不对，加载其他静态资源没意义
+      var pathname = location.pathname;
+
+      function isZhCN(pathname) {
+        return /-cn\/?$/.test(pathname);
+      }
+      function getLocalizedPathname(path, zhCN) {
+        var pathname = path.startsWith('/') ? path : '/' + path;
+        if (!zhCN) { // to enUS
+          return /\/?index-cn/.test(pathname) ? '/' : pathname.replace('-cn', '');
+        } else if (pathname === '/') {
+          return '/index-cn';
+        } else if (pathname.endsWith('/')) {
+          return pathname.replace(/\/$/, '-cn/');
+        }
+        return pathname + '-cn';
+      }
+
+      // 兼容旧的 URL， `?locale=...`
+      var queryString = location.search;
+      if (queryString) {
+        var isZhCNConfig = queryString.indexOf('zh-CN') > -1;
+        if (isZhCNConfig && !isZhCN(pathname)) {
+          location.pathname = getLocalizedPathname(pathname, isZhCNConfig)
+        }
+      }
+
+      // 首页无视链接里面的语言设置 https://github.com/ant-design/ant-design/issues/4552
+      if (isLocalStorageNameSupported() && (pathname === '/' || pathname === '/index-cn')) {
+        var lang = (window.localStorage && localStorage.getItem('locale')) || (navigator.language.toLowerCase() === 'zh-cn' ? 'zh-CN' : 'en-US');
+        // safari is 'zh-cn', while other browser is 'zh-CN';
+        if ((lang === 'zh-CN') !== isZhCN(pathname)) {
+          location.pathname = getLocalizedPathname(pathname, lang === 'zh-CN');
+        }
+      }
+      document.documentElement.className += isZhCN(pathname) ? 'zh-cn' : 'en-us';
+    })()
+    </script>
+    <link rel="icon" href="http://g02.s.alicdn.com/kf/HTB1RM2jbZnI8KJjSspe763wIpXau/230514981/HTB1RM2jbZnI8KJjSspe763wIpXau.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.cnpmjs.org/css?family=Lato:400,700|Raleway"/>
+    <link rel="stylesheet" type="text/css" href="/index-1.css"/>
+    <link rel="stylesheet" type="text/css" href="/index-2.css"/>
+    <link rel="stylesheet/less" type="text/css" href="/color.less"/>
+    <style id="nprogress-style">
+      #nprogress { display: none }
+    </style>
+    <!--[if lte IE 10]>
+      <script
+        src="https://as.alipayobjects.com/g/component/??console-polyfill/0.2.2/index.js,media-match/2.0.2/media.match.min.js"></script>
+    <![endif]-->
+    <script>
+    if (!window.Intl) {
+      document.writeln('<script src="https://as.alipayobjects.com/g/component/intl/1.0.1/??Intl.js,locale-data/jsonp/en.js,locale-data/jsonp/zh.js">' + '<' + '/script>');
+    }
+    if (!window.Promise) {
+      document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"' + '>' + '<' + '/' + 'script>');
+    }
+
+    }
+    </script>
+
+    <!-- Start of KF5 supportbox script -->
+    <script type="text/javascript">
+      document.write('<script src="\/\/assets-cdn.kf5.com\/supportbox\/main.js?' + (new Date).getDay() + '" id="kf5-provide-supportBox" kf5-domain="pengbo.kf5.com" charset="utf-8"><\/script>');
+    </script>
+    <!-- End of KF5 supportbox script -->
+  </head>
+  <body>
+    <div id="react-content">
+      <div class="page-wrapper" data-reactroot="" data-reactid="1" data-react-checksum="-206920216"><header id="header" class="clearfix" data-reactid="2"><div class="ant-row" data-reactid="3"><div class="ant-col-xs-24 ant-col-sm-24 ant-col-md-5 ant-col-lg-4" data-reactid="4"><a id="logo" href="/index-cn" data-reactid="5"><img alt="logo" src="http://g02.s.alicdn.com/kf/HTB1S_xAXQfb_uJkSnhJ762dDVXaU/230514981/HTB1S_xAXQfb_uJkSnhJ762dDVXaU.png" data-reactid="6"/></a></div><div class="ant-col-xs-0 ant-col-sm-0 ant-col-md-19 ant-col-lg-20" data-reactid="7"><div id="search-box" data-reactid="8"></div><button type="button" class="ant-btn header-lang-button ant-btn-sm ant-btn-background-ghost" data-reactid="9"><span data-reactid="10">EN</span></button><ul class="ant-menu ant-menu-horizontal ant-menu-light ant-menu-root" role="menu" aria-activedescendant="" id="nav" tabindex="0" data-reactid="11"><li class="ant-menu-item" role="menuitem" aria-selected="false" data-reactid="12"><a href="/index-cn" data-reactid="13"><span data-reactid="14">首页</span></a></li><li class="ant-menu-item-selected ant-menu-item" role="menuitem" aria-selected="true" data-reactid="15"><a href="/docs/product/best-seller-cn" data-reactid="16"><span data-reactid="17">产品</span></a></li><li class="ant-menu-item" role="menuitem" aria-selected="false" data-reactid="18"><a href="/docs/about/company-profile-cn" data-reactid="19"><span data-reactid="20">关于Feisman</span></a></li><li class="ant-menu-item" role="menuitem" aria-selected="false" data-reactid="21"><a href="/docs/contact/contact-us-cn" data-reactid="22"><span data-reactid="23">联系我们</span></a></li><li class="ant-menu-item" role="menuitem" aria-selected="false" data-reactid="24"><a href="http://www.ichaoyue.cn" class="header-link" target="_blank" rel="noopener noreferrer" data-reactid="25"><span data-reactid="26">产品目录</span><span style="display:inline-block;position:relative;top:-2px;width:18px;" data-reactid="27"><span class="ant-badge ant-badge-not-a-wrapper" data-reactid="28"><sup data-show="true" class="ant-scroll-number ant-badge-dot" data-reactid="29"></sup></span></span></a></li></ul></div></div></header><div class="main-wrapper" data-reactid="30"><div class="ant-row" data-reactid="31"><div class="ant-col-xs-24 ant-col-sm-24 ant-col-md-6 ant-col-lg-4" data-reactid="32"><ul class="ant-menu ant-menu-inline aside-container ant-menu-light ant-menu-root" role="menu" aria-activedescendant="" tabindex="0" data-reactid="33"><li style="padding-left:24px;" class="ant-menu-item" role="menuitem" aria-selected="false" data-reactid="34"><a href="/docs/product/best-seller-cn" data-reactid="35">Best Seller</a></li><li class="ant-menu-submenu-inline ant-menu-submenu-open ant-menu-submenu-selected ant-menu-submenu" data-reactid="36"><div style="padding-left:24px;" class="ant-menu-submenu-title" aria-expanded="true" aria-owns="Product Detail$Menu" aria-haspopup="true" data-reactid="37"><h4 data-reactid="38">Product Detail</h4></div><ul class="ant-menu ant-menu-inline  ant-menu-sub" role="menu" aria-activedescendant="" id="Product Detail$Menu" data-reactid="39"><li style="padding-left:48px;" class="ant-menu-item-selected ant-menu-item" role="menuitem" aria-selected="true" data-reactid="40"><a href="/docs/product/a1040-cn" data-reactid="41">A1040</a></li><li style="padding-left:48px;" class="ant-menu-item" role="menuitem" aria-selected="false" data-reactid="42"><a href="/docs/product/a0263-cn" data-reactid="43">A0263</a></li></ul></li></ul></div><div class="main-container ant-col-xs-24 ant-col-sm-24 ant-col-md-18 ant-col-lg-20" data-reactid="44"><article class="markdown" data-reactid="45"><h1 data-reactid="46"><!-- react-text: 47 -->A1040<!-- /react-text --><a class="edit-button" href="https://github.com/ant-design/ant-design/edit/master/docs/product/a1040.md" target="_blank" data-reactid="48"><i class="anticon anticon-edit" data-reactid="49"></i></a></h1><section class="toc" data-reactid="50"><ul data-reactid="51"><li data-reactid="52"><a class="bisheng-toc-h1" href="#High-quality-1m-micro-usb-cable-charger,-micro-usb-cable-for-samsung-cable-cord" title="High quality 1m micro usb cable charger, micro usb cable for samsung cable cord" data-reactid="53"><!-- react-text: 54 -->High quality 1m micro usb cable charger, micro usb cable for samsung cable cord<!-- /react-text --></a></li></ul></section><section class="markdown" data-reactid="55"><h1 id="High-quality-1m-micro-usb-cable-charger,-micro-usb-cable-for-samsung-cable-cord" data-reactid="56"><span data-reactid="57"><!-- react-text: 58 -->High quality 1m micro usb cable charger, micro usb cable for samsung cable cord<!-- /react-text --></span><a href="#High-quality-1m-micro-usb-cable-charger,-micro-usb-cable-for-samsung-cable-cord" class="anchor" data-reactid="59">#</a></h1><p data-reactid="60"><strong data-reactid="61"><!-- react-text: 62 -->FOB Price: <!-- /react-text --></strong><!-- react-text: 63 -->US $0.40 - 0.50 / Piece （Min.Order Quantity:100 pcs<!-- /react-text --><!-- react-text: 64 -->)<!-- /react-text --></p><blockquote data-reactid="65"><p data-reactid="66"><!-- react-text: 67 -->Brand Name:OEM/ODM<!-- /react-text --></p><p data-reactid="68"><!-- react-text: 69 -->Color:White , Black<!-- /react-text --></p><p data-reactid="70"><!-- react-text: 71 -->Length: 1M or Customized<!-- /react-text --></p><p data-reactid="72"><!-- react-text: 73 -->Weight : 22G<!-- /react-text --></p><p data-reactid="74"><!-- react-text: 75 -->Material: Pure copper wires, Environmental protection PVC<!-- /react-text --></p><p data-reactid="76"><!-- react-text: 77 -->USB Type: standard<!-- /react-text --></p><p data-reactid="78"><!-- react-text: 79 -->Connector Type: Micro USB<!-- /react-text --></p><p data-reactid="80"><!-- react-text: 81 -->Function:Data transferring and Charging<!-- /react-text --></p><p data-reactid="82"><!-- react-text: 83 -->Certificate:CE, ROHS,FCC<!-- /react-text --></p><p data-reactid="84"><!-- react-text: 85 -->Warranty:12 months<!-- /react-text --></p><p data-reactid="86"><!-- react-text: 87 -->OEM/ODM:Customized service is supported, Customize your logo on the cable and packaging<!-- /react-text --></p><p data-reactid="88"><!-- react-text: 89 -->Compatible with : Samsung Galaxy Note 4, S6, and S6 Edge and Micro-USB supported devices.<!-- /react-text --></p></blockquote><p data-reactid="90"><img src="/ProductImages/A1040.1.jpg" data-reactid="91"/><img src="/ProductImages/A1040.2.jpg" data-reactid="92"/><img src="/ProductImages/A1040.3.jpg" data-reactid="93"/><img src="/ProductImages/A1040.4.jpg" data-reactid="94"/><img src="/ProductImages/A1040.5.jpg" data-reactid="95"/></p></section><section class="markdown api-container" data-reactid="96"></section></article></div></div><div class="ant-row" data-reactid="97"><div class="ant-col-xs-24 ant-col-sm-24 ant-col-md-18 ant-col-md-offset-6 ant-col-lg-20 ant-col-lg-offset-4" data-reactid="98"><section class="prev-next-nav" data-reactid="99"><a class="prev-page" href="/docs/product/best-seller-cn" data-reactid="100">Best Seller</a><a class="next-page" href="/docs/product/a0263-cn" data-reactid="101">A0263</a></section></div></div></div><footer id="footer" data-reactid="102"><ul data-reactid="103"><li data-reactid="104"><h2 data-reactid="105"><i class="anticon anticon-github" data-reactid="106"></i><!-- react-text: 107 --> Feisman Digital<!-- /react-text --></h2><div data-reactid="108"><a target="_blank " href="/docs/about/company-profile" data-reactid="109"><span data-reactid="110">关于Feisman</span></a></div><div data-reactid="111"><a target="_blank " href="docs/contact/contact-us" data-reactid="112"><span data-reactid="113">联系我们</span></a></div><div data-reactid="114"><a target="_blank " href="http://www.ichaoyue.cn" data-reactid="115"><span data-reactid="116">产品目录</span></a></div><div data-reactid="117"><a target="_blank " href="http://feisman.en.alibaba.com" data-reactid="118"><span data-reactid="119">阿里巴巴国际站店铺</span></a></div><div data-reactid="120"><a target="_blank " href="https://www.facebook.com/szfeisman" data-reactid="121"><span data-reactid="122">Facebook主页</span></a></div><div style="margin-top:12px;" data-reactid="123"><div data-reactid="124"><div style="padding:5px;background:#fff;border-radius:1px;box-shadow:0 0 0 1px rgba(0,0,0,.1);display:inline-block;cursor:pointer;" data-reactid="125"><div style="width:60px;height:12px;border-radius:2px;background:#108ee9;" data-reactid="126"></div></div></div></div></li><li data-reactid="127"><h2 data-reactid="128"><i class="anticon anticon-link" data-reactid="129"></i><!-- react-text: 130 --> <!-- /react-text --><span data-reactid="131">3C数码配件</span></h2><div data-reactid="132"><a href="http://#" data-reactid="133"><span data-reactid="134">手机数据线</span></a></div><div data-reactid="135"><a href="http://#" data-reactid="136"><span data-reactid="137">数据线转接头</span></a></div><div data-reactid="138"><a href="http://#" data-reactid="139"><span data-reactid="140">手机保护壳套</span></a></div><div data-reactid="141"><a href="http://#" data-reactid="142"><span data-reactid="143">充电器|车充</span></a></div><div data-reactid="144"><a href="http://#" data-reactid="145"><span data-reactid="146">耳机|音频类</span></a></div><div data-reactid="147"><a href="http://#" data-reactid="148"><span data-reactid="149">移动电源</span></a></div><div data-reactid="150"><a href="http://#" data-reactid="151"><span data-reactid="152">其他</span></a></div></li><li data-reactid="153"><h2 data-reactid="154"><i class="anticon anticon-customer-service" data-reactid="155"></i><!-- react-text: 156 --> <!-- /react-text --><span data-reactid="157">创意生活</span></h2><div data-reactid="158"><a href="/changelog" data-reactid="159"><span data-reactid="160">居家</span></a></div><div data-reactid="161"><a target="_blank" rel="noopener noreferrer" href="https://#" data-reactid="162"><span data-reactid="163">户外</span></a></div><div data-reactid="164"><a target="_blank" rel="noopener noreferrer" href="https://gitter.im/ant-design/ant-design" data-reactid="165"><span data-reactid="166">电脑包|内胆包</span></a></div><div data-reactid="167"><a target="_blank" rel="noopener noreferrer" href="https://gitter.im/ant-design/ant-design-english" data-reactid="168"><span data-reactid="169">其他</span></a></div></li><li data-reactid="170"><h2 data-reactid="171"><!-- react-text: 172 -->Copyright © <!-- /react-text --><!-- react-text: 173 -->2017<!-- /react-text --></h2><div data-reactid="174"><span data-reactid="175">深圳市费思漫科技有限公司 @ B2B</span></div><div data-reactid="176"><!-- react-text: 177 -->Built with <!-- /react-text --><a target="_blank" rel="noopener noreferrer" href="http://www.feisman.cn" data-reactid="178">BiSheng</a></div></li></ul></footer></div>
+    </div>
+    
+      
+        <script src="https://as.alipayobjects.com/g/component/??react/15.6.1/react.min.js,react/15.6.1/react-dom.min.js"></script>
+      
+    
+    <script src="/common.js"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>
